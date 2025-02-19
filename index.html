@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+<header class="header">
+    <a href="#home" class="logo"><span>SUTHER.</span></a>
+    <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#project">project</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+    </nav>
+    <a href="#contact"><button class="gradient-button">Contact me</button></a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" id="menu-icon" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h1> Hi, I'm <span>Suther</span></h1>
+        <h3> 
+            I'm a <span id="span-1">Full Stack Developer</span>
+        </h3>
+        <p> A skilled professional with expertise in Python, SQL, HTML, CSS, and JavaScript,
+            complemented by a Bachelor of Engineering in Electrical and Electronics Engineering. Strong foundation in software development, web technologes, and data management, with a focus on problem-solving and technical innovation in programming domains.</p>
+
+         <br><br><br><br>
+
+        <div class="btn-grp">
+            <a href="https://drive.google.com/file/d/1VgPmQw63Mpgr83niEZJiBEOwe67vXumf/view?usp=drivesdk" class="btn" id="btn1">Resume</a>
+        </div>
+    </div>
+    <div class="home-img">
+        <img src="-1_orig.jpeg.jpg" alt="" height="350px" width="280px" style="border-radius:10%;">
+    </div>
+</section>
+<section  id="project">
+    <h2 class="heading">Projects</h2>
+    <div class="slider-container">
+        <button id="prevBtn">❮ Prev</button>
+        <div class="image-container">
+            <img src="project-2.png" class="slide active">
+            <img src="project-1.png" class="slide">
+            <img src="project-3.png" class="slide">
+            <img src="project-4.jpg" class="slide">
+    
+        </div>
+        <button id="nextBtn">Next ❯</button>
+    </div>
+</section>
+
+
+<section class="skills" id="skills">
+    <h2 class="heading"> Skills</h2>
+
+        <div class="skill-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./python.png" alt="" height="300px">
+                    <h2>Python</h2>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./SQL.png" alt="" height="300px" width="250px">
+                    <h2>SQL</h2>
+                </div>
+            </div>
+
+           
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./html-5_318-674234.avif" alt="" height="300px" width="300px">
+                    <h2>HTML</h2>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./css_318-674222.jpg" alt="" height="300px" width="270px">
+                    <h2>CSS</h2>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./javascript-logo-big.png" alt="" height="300px" width="200px">
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <img src="./excel.png" alt="" height="300px" width="500px">
+                    <h2>Microsoft Excel</h2>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+        <div class="education-box">
+
+            <div class="education-card">
+
+                <img src="./clg.jpg" alt="" width="300px" height="140px">
+
+                <p>I pursued a <span>Bachelor of Engineering in Electrical and Electronics Engineering at V V College of Engineering, Tisaiyanvilai</span> , from June 2020 to April 2024, achieving a CGPA of 79.4. My academic journey equipped me with strong analytical skills, technical expertise, and a solid foundation in engineering principles to excel in diverse challenges.</p>
+            </div>                       
+            <div class="education-card">
+
+                <img src="./scl.avif" alt="" width="300px" height="200px">
+
+                <p>XII - Computer Science graduate from <span>Sri Ramakrishna Higher Secondary School</span>, Tisaiyanvilai, achieving 67.8% (June 2019 - April 2020). </p>
+            </div>
+        </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2 class="heading"> Contact <span>Me</span></h2>
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-forms">
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="hidden" name="access_key" value="b3d77ee5-5378-40bb-b4b7-26dd7685217f">
+
+                <input type="text" id="name" name="Name:" placeholder="Enter your Name" required class="contact-inputs">
+
+                <input type="email" name="Email-id:" id="email" placeholder="enter your mailid" required class="contact-inputs">
+
+            </div>
+            <div class="input-box">
+
+                <input type="number" id="phonenumber" name="phonenumber:" placeholder="enter your phone number" required class="contact-inputs">
+
+                <input type="text" name="subject of form:" id="subject" placeholder=" subject for contact" required>
+
+
+
+            </div>
+        </div>
+        <div class="input-group2"> 
+            <textarea name="Content:" id="content-formarea"  placeholder="enter your message" cols="30" rows="5"></textarea>
+            <input type="submit" value="send message" class="btn">
+
+        </div>
+    </form>
+</section>
+       
+<footer class="footer">
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/suther-r-a40a6b2a1v"><img src="./linkedin.svg" alt=""></a>
+        <a href="https://www.instagram.com/suther_rajamani/profilecard/?igsh=NGJnd28zZ2xnMHIx"><img src="instagram.svg" alt=""></a>
+        <a href="https://www.facebook.com/share/zdzeyon5utUiRycq/"><img src="facebook.svg" alt=""></a>
+        <a href="https://x.com/smartsuther143?t=FkP7F9vYIeVuCd2FLeoEoA&s=09"><img src="twitter (1).svg" alt=""></a>
+    </div>
+    <p class="copyright">@suther | All Rights Reserved</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
